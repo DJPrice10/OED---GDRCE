@@ -1,4 +1,4 @@
-# OED---GDRCE
+# OED-GDRCE
 Optimal experimental design code for group dose-response challenge experiments (C. jejuni in chickens)
 
 Code folder contains all relevant code to run the different scenarios considered in the manuscript, "Designing group dose-response studies in the presence of transmission".
