@@ -15,3 +15,7 @@ Subordinate functions:
 5. infected\_pop\_at\_time.m: Function to return state of process at given observation time(s) _x_, given _state_ and _time_ of transitions from Gillespie algorithm.
 6. howmanyunique.m: Function to count the number of unique rows in a matrix _A_.
 7. discrete\_trunc\_sample.m: Function to sample _m_ points around current value _T_, across feasible range _minmaxT_, according to a multivariate normal distribution with standard deviation _sd\_T_. Sampled points are rounded to grid according to _stepsize_.
+
+
+
+Please also note that the code is correct for the examples we have considered, however, we cannot guarantee that there will not be an issue if aspects of the code are changed to consider alternative input (i.e., other prior distributions). Care must be taken to ensure all aspects of the code are correct for alternative examples.
