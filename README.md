@@ -1,7 +1,7 @@
 # OED-GDRCE
 Optimal experimental design code for group dose-response challenge experiments (C. jejuni in chickens)
 
-Code folder contains all relevant code to run the different scenarios considered in the manuscript, "Designing group dose-response studies in the presence of transmission". The code is split into two folders: ID50_SHH_prior, the results of which appear in the manuscript, and alpha_delta_prior, the results that appear in the supplementary material.
+Code folder contains all relevant code to run the different scenarios considered in the manuscript, "Designing group dose-response studies in the presence of transmission", available at <https://doi.org/10.1016/j.mbs.2018.07.007>. The code is split into two folders: ID50_SHH_prior, the results of which appear in the manuscript, and alpha_delta_prior, the results that appear in the supplementary material.
 
 Note that when evaluating the EKLD, a mex function, "ABCDE\_chunk", is called upon. This file has been compiled for a mac (file ending .mexmaci64), and may need to be compiled if running an alternative OS. The details of this method for evaluating the EKLD can be found in: Price, Bean, Ross, Tuke, _On the efficient determination of optimal Bayesian experimental designs using ABC: A case study in optimal observation of epidemics_, Journal of Statistical Planning & Inference, 172, 1--15, 2016.
 
